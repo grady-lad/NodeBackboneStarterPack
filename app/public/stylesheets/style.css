@@ -1,0 +1,312 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+a {
+  background: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+dfn {
+  font-style: italic;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+pre {
+  overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: 'Bitstream Vera Sans Mono', Consolas, Courier, monospace, 'Bitstream Vera Sans Mono', Consolas, Courier, monospace;
+  font-size: 1em;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+input {
+  line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+}
+optgroup {
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+}
+body {
+  font-family: "Arial" !important;
+}
+#wrapper {
+  margin-top: 10px;
+}
+@media (max-width: 320px) {
+  #wrapper {
+    margin-top: 40%;
+  }
+}
+/* submission-form.jade */
+#feedback {
+  margin-top: 50px;
+  z-index: 1;
+}
+#email {
+  width: 10px;
+  margin-bottom: 10px;
+}
+#suggestion {
+  width: 250px;
+}
+#submit_button {
+  margin-top: 10px;
+}
+@media (min-width: 790px) {
+  #contactsuggestion,
+  #contactemail {
+    width: 200%;
+  }
+}
+@media (min-width: 790px) {
+  #loginsuggestion,
+  #loginemail {
+    width: 100%;
+  }
+}
+#errorMessage {
+  z-index: -10;
+  color: #e81518;
+  margin-top: 10px;
+  font-weight: 200;
+  margin-left: 3%;
+}
+#successMessage {
+  z-index: -10;
+  color: #15e8a2;
+  margin-top: 10px;
+  font-weight: 200;
+  width: 200px;
+  margin-left: 3%;
+}
+.about-text {
+  font-family: apple_regular;
+}
+.nav-text {
+  font-family: Super-Effective;
+  color: #ff3c77;
+  font-size: 28px;
+}
+.upload-nav-text {
+  font-size: 36px;
+  font-family: Courier New;
+  color: #222;
+}
+.going-right {
+  margin-left: 80%;
+}
+.lil-extra {
+  margin-left: 20px;
+}
+highlight {
+  color: #ff3c77;
+}
+highlight a {
+  color: #ff3c77;
+}
+.logo_and_navbar {
+  margin-top: 85px;
+}
+.nav-logo {
+  margin-top: -15px !important;
+}
+.footer {
+  padding-top: 100px;
+}
+.footer p {
+  float: right;
+}
+#intialContent {
+  display: none;
+}
+.img-fade {
+  opacity: 0;
+}
+.img-centre {
+  margin: 0 auto;
+}
+.centre-links {
+  margin-top: 20px;
+  text-align: center;
+}
+.cloudinary_fileupload {
+  color: transparent;
+}
+.illRow {
+  margin-top: 20px;
+}
+.multipleIllHolder {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+}
+.multipleIll {
+  height: auto;
+  width: auto;
+  max-width: 300px;
+  max-height: 300px;
+}
+.uploader-panel {
+  border: 4px solid #eee;
+}
+.uploader-panel .uploadbutton {
+  margin-top: 10px;
+}
